@@ -155,3 +155,20 @@ App worked locally but failed after deployment.
 ```bash
 git clone <your-repo-url>
 cd smart-bookmark-app
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Add Environment Variables
+
+Create .env.local file:
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+
+4️⃣ Run Development Server
+npm run dev
+
+
+Open:
+
+http://localhost:3000
